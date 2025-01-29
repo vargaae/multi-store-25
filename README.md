@@ -12,9 +12,9 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=764ABC" alt="Stripe" />
   </div>
 
-# MULTI-MICRO-STORE-24
+# MULTI-STORE-25
 
-## MULTI ECOMMERCE APPLICATION WITH MICROSERVICES
+## MULTI ECOMMERCE APPLICATION
 
 <div align="center">
   <img alt="Application image" src="https://vargaae.hu/images/projects/multi-micro-store-24-git.png" width="700" />
@@ -22,13 +22,13 @@
 This project is an online B2C shopping application that contains a basic e-commerce’s
     functions from shopping to placing order with
     using microservices (!Demonstration only - Microservices are being further developed!).
-You can check out the deployed application [here](https://multi-micro-store-24.onrender.com)
-->deployed on Render: ClientSide App+API+PostgreSQL DB
+You can check out the deployed application [here](https://prod.dz2v7ea6a6ixu.amplifyapp.com)
+->deployed with AWS: ClientSide App+API+PostgreSQL DB
 
 ## 🛠 Features/Structure:
 
 - 🚀React APP -> Redux for State Management + Redux-Persist for Persistance,
-- 🚀STORE SERVICE: API [here](https://github.com/vargaae/ecommerce-2024-api)
+- 🚀STORE SERVICE: API [here](https://github.com/vargaae/multi-store-25-api)
   and Database for products with headless CMS: Strapi and PostgreSQL database,
 - 🚀SHOP SERVICE: Database for products with Firebase,
 - 🚀AUTHENTICATION/USER SERVICE - USER SLICE,

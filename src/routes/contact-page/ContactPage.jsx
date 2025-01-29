@@ -94,7 +94,7 @@ const ContactPage = () => {
             </TextBox>
             <TextBox>
               <h5>Mail</h5>
-              <p>info@mmstore-24.com</p>
+              <p>info@mmstore-25.com</p>
             </TextBox>
           </ContactTextContainer>
           <hr />
@@ -142,7 +142,7 @@ const ContactPage = () => {
                     Thank you! We have got your email.
                     <p>We will reply as soon as possible.</p>
                     <p>
-                      <strong>Andras</strong> from <strong>MMSTORE-24</strong>
+                      <strong>Andras</strong> from <strong>MMSTORE-25</strong>
                     </p>
                   </h5>
                 )}

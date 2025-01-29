@@ -18,7 +18,7 @@ const StartHeader = () => {
     >
       <BannerContent>
         <CarouselContainer>
-          <CarouselTitle>MULTIMICRO-STORE-24</CarouselTitle>
+          <CarouselTitle>MULTISTORE-25</CarouselTitle>
           <p
             style={{
               fontWeight: "bold",

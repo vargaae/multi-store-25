@@ -42,7 +42,7 @@ const StartVideo = () => {
       />
 
       <VideoTextBox>
-        <VideoTextBoxTitle>MultiStore-24 Exclusive Deal</VideoTextBoxTitle>
+        <VideoTextBoxTitle>MultiStore-25 Exclusive Deal</VideoTextBoxTitle>
         <VideoTextBoxParagraph>
           MultiStore Exclusive Deal Discover the epitome of style with
           MultiStore Exclusives. Elevate your wardrobe with premium brands,

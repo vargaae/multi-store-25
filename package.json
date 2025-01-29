@@ -19,7 +19,7 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^10.9.0",
     "framer-motion": "^11.2.10",
-    "multi-micro-store-24": "file:",
+    "multi-micro-store-25": "file:",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.9.1",
     "react-awesome-slider": "^4.1.0",

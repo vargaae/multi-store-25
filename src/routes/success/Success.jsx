@@ -89,7 +89,7 @@ const Success = () => {
               <Thanks>
                 We appreciate your business! If you have any questions, please
                 email:
-                <a href="mailto:orders@mmstore-24.com">orders@mmstore-24.com</a>.
+                <a href="mailto:orders@mm5.com">orders@mmstore-25.com</a>.
               </Thanks>
             </div>
           </div>

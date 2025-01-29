@@ -23,7 +23,7 @@ export default function ErrorPage() {
               : () => navigate(-2)
           }
         >
-          Go back to MULTI-MICRO-STORE-24
+          Go back to MULTISTORE-25
         </ShopBreadcrumbLink>
         <svg
           xmlns="http://www.w3.org/2000/svg"

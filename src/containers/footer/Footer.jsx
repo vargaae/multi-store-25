@@ -49,7 +49,7 @@ const Footer = () => {
       <LinksContainer>
         <LinksLogoContainer>
           <img src={logo} alt="Andras Varga logo" />
-          <h3>MMSTORE-24</h3>
+          <h3>MMSTORE-25</h3>
           <p>Your trusted e-commerce app with microservices</p>
         </LinksLogoContainer>
         <LinksDivContainer>
@@ -66,7 +66,7 @@ const Footer = () => {
           <h4>Get in touch</h4>
           <p>Budapest K12 182 HU Alknjkcb</p>
           <p>+36-1-085-132567</p>
-          <p>info@mmstore-24.com</p>
+          <p>info@mmstore-25.com</p>
         </LinksDivContainer>
         <IconsContainer>
           <FooterLink to="https://facebook.com" target="_blank" rel="noopener">

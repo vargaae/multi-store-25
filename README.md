@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=764ABC" alt="Stripe" />
   </div>
 
-# MULTI-STORE-25
+# MULTISTORE-25
 
 ## MULTI ECOMMERCE APPLICATION
 

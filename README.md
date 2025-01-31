@@ -17,13 +17,13 @@
 ## MULTI ECOMMERCE APPLICATION
 
 <div align="center">
-  <img alt="Application image" src="https://vargaae.hu/images/projects/multi-micro-store-24-git.png" width="700" />
+  <img alt="Application image" src="https://vargaae.hu/images/projects/multi-micro-store-25-git.png" width="700" />
 </div>
 This project is an online B2C shopping application that contains a basic e-commerce’s
     functions from shopping to placing order with
     using microservices (!Demonstration only - Microservices are being further developed!).
-You can check out the deployed application [here](https://prod.dz2v7ea6a6ixu.amplifyapp.com)
-->deployed with AWS: ClientSide App+API+PostgreSQL DB
+You can check out the deployed application [here](https://multi-micro-store-24.onrender.com/)
+->deployed on Render: ClientSide App+API+PostgreSQL DB
 
 ## 🛠 Features/Structure:
 
@@ -103,7 +103,7 @@ VITE_APP_STRIPE_KEY=
 1. **Running the Project**
 
 ```bash
-npm run dev
+npm run preview
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.

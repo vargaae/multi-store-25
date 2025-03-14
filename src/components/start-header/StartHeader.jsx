@@ -23,7 +23,7 @@ const StartHeader = () => {
             style={{
               fontWeight: "bold",
               color: "white",
-              marginBottom: 10,
+              marginBottom: 0,
             }}
           >
             Keep track of information about shops and sales

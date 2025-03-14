@@ -34,7 +34,7 @@ const ProductPage = ({}) => {
   const [selectedImg, setSelectedImg] = useState("img");
   // const [quantity, setQuantity] = useState(1);
   const productPage = true;
-  const headerTitle = "Design Store";
+  const headerTitle = "Furniture Store";
   const headerLink = "/store";
 
   const dispatch = useDispatch();

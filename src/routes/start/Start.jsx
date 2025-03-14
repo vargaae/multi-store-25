@@ -51,24 +51,28 @@ const Start = () => {
       <StartHeader />
       <BrandsContainer>
         {brands.map((brand) => (
-          <motion.div
-            whileInView={{ opacity: [0, 1] }}
-            transition={{ duration: 0.5, type: "tween" }}
-            key={brand._id}
-          >
-            <img src={brand.imgUrl} alt={brand.title} />
-          </motion.div>
+          <a href={brand.linkUrl} target="_blank">
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5, type: "tween" }}
+              key={brand._id}
+            >
+              <img src={brand.imgUrl} alt={brand.title} />
+            </motion.div>
+          </a>
         ))}
       </BrandsContainer>
       <BestSellerContainer>
-        <BestSellerTitle>DESIGN STORE / SHOP FEATURED PRODUCTS</BestSellerTitle>
+        <BestSellerTitle>
+          Furniture STORE / SHOP FEATURED PRODUCTS
+        </BestSellerTitle>
         <FeaturedProducts type="start-featured" />
       </BestSellerContainer>
       <StartVideo />
       <StartNavigationContainer>
         <StartStoreShopContainer>
           <BestSellerTitle>
-            DESIGN STORE
+            Furniture STORE
             <ButtonContainer>
               <ButtonComponent
                 onClick={goToStore}
@@ -98,7 +102,7 @@ const Start = () => {
         </StartStoreShopContainer>
         <StartStoreShopContainer>
           <BestSellerTitle>
-            DESIGN SHOP
+            Clothing Store
             <ButtonComponent
               onClick={goToShop}
               buttonType={BUTTON_TYPE_CLASSES.start}

@@ -53,7 +53,7 @@ const StartVideo = () => {
         <VisitStoreContainer>
           <VisitStoreLinkContainer to="/store">
             <VisitStoreLinkTextContainer>
-              Visit Design Store
+              Visit Furniture Store
             </VisitStoreLinkTextContainer>
             <VisitStoreArrowContainer>
               <svg
@@ -72,7 +72,7 @@ const StartVideo = () => {
         <VisitStoreContainer>
           <VisitShopLinkContainer to="/shop">
             <VisitStoreLinkTextContainer>
-              Visit Design Shop
+              Visit Clothing Store
             </VisitStoreLinkTextContainer>
             <VisitStoreArrowContainer>
               <svg

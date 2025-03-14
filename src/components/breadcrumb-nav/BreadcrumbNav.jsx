@@ -12,7 +12,7 @@ const BreadcrumbNav = ({
   // const productTitle = "true";
   // const productPage = false;
   // const productsPageLink = catId < 8 ? "/products/7" : "/products/10";
-  // const headerTitle = catId < 8 ? "Design Store" : "Design Shop";
+  // const headerTitle = catId < 8 ? "Furniture Store" : "Clothing Store";
   // const headerLink = catId < 8 ? "/store" : "/shop";
   // featuredShop={productDataById?.data?.attributes?.type}
   return (
@@ -73,7 +73,7 @@ const BreadcrumbNav = ({
           </>
         ) : featuredShop === "featured-in-shop" ? (
           <>
-            <BreadcrumbLink to="/shop">Design Shop</BreadcrumbLink>
+            <BreadcrumbLink to="/shop">Clothing Store</BreadcrumbLink>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

@@ -48,7 +48,9 @@ const override = {
   borderColor: "red",
 };
 
+
 const BestSeller = ({ type }) => {
+  let dragging = false;
   let [color, setColor] = useState("#54b3d6");
   const [count, setCount] = useState(0);
 
@@ -96,6 +98,8 @@ const BestSeller = ({ type }) => {
   const settings = {
     lazyLoad: true,
     infinite: true,
+    beforeChange: () => dragging = true,
+      afterChange: () => dragging = false,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,

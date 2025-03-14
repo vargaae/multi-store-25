@@ -15,7 +15,7 @@ import {
 } from "./StartStore.styles";
 
 const StartStore = () => {
-  const headerTitle = "Design Store";
+  const headerTitle = "Furniture Store";
   const headerCarouselTitle = "Store";
   return (
     <>

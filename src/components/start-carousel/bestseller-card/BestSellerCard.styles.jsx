@@ -8,6 +8,9 @@ export const BestsellerCardContainer = styled.div`
   flex-direction: column;
   gap: 10px;
   overflow: hidden;
+  box-shadow: 10px 9px 19px -6px rgba(218, 211, 211, 0.86);
+  -webkit-box-shadow: 10px 9px 19px -6px rgba(218, 211, 211, 0.86);
+  -moz-box-shadow: 10px 9px 19px -6px rgba(218, 211, 211, 0.86);
 `;
 
 export const CardImageContainer = styled.div`

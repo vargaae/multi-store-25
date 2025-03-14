@@ -12,7 +12,7 @@ import { BreadcrumbNav, Contact } from "../../components";
 
 const Shop = () => {
   const dispatch = useDispatch();
-  const headerTitle = "Design Shop";
+  const headerTitle = "Clothing Store";
   const headerCarouselTitle = "Shop";
 
   useEffect(() => {

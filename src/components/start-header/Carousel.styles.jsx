@@ -20,11 +20,11 @@ export const CarouselItem = styled(Link)`
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   // color: white;
   margin: 0.7rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  // padding-top: 1rem;
+  // padding-bottom: 1rem;
   background-color: rgb(255, 255, 255, 0.9);
   // background-color: rgba(0, 0, 40, 0.6);
   // background-color: rgba(0, 0, 0, 0.2);
@@ -35,6 +35,6 @@ export const CarouselItem = styled(Link)`
   box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
 
   img {
-    border-radius: 1rem;
+    border-radius: 5px;
   }
 `;

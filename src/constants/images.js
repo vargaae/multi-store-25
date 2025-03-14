@@ -18,11 +18,11 @@ import clothes from "../assets/banner/clothes.jpg";
 // BRANDS
 import adidas from "../assets/brands/adidas.png";
 import amazon from "../assets/brands/amazon.png";
-import asus from "../assets/brands/asus.png";
+import ikea from "../assets/brands/ikea.svg";
 import bolt from "../assets/brands/bolt.png";
 import nb from "../assets/brands/nb.png";
 import skype from "../assets/brands/skype.png";
-import spotify from "../assets/brands/spotify.png";
+import shopify from "../assets/brands/shopify.svg";
 // STORE
 import storeStartCarouselImg from "../assets/start-carousel/pexels-photo-667838.webp";
 import storeStartCarouselImg2 from "../assets/start-carousel/pexels-photo-1571457.webp";
@@ -58,11 +58,11 @@ export default {
 
   adidas,
   amazon,
-  asus,
+  ikea,
   bolt,
   nb,
   skype,
-  spotify,
+  shopify,
 
   storeStartCarouselImg,
   storeStartCarouselImg2,

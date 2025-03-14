@@ -26,7 +26,7 @@ import { doc, onSnapshot } from "firebase/firestore";
 
 const ShopProductPage = ({}) => {
   const productPage = true;
-  const headerTitle = "Design Shop";
+  const headerTitle = "Clothing Store";
   const headerLink = "/shop";
 
   const [selectedImg, setSelectedImg] = useState("img");

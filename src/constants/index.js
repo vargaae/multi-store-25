@@ -8,8 +8,8 @@ import { shop } from "./shop";
 export { images, videos, shops, brands, shop, store };
 
 export const list = [
-  { name: "Design Store", id: "113124br", link: "/store" },
-  { name: "Design Shop", id: "213124ea", link: "/shop" },
+  { name: "Furniture Store", id: "113124br", link: "/store" },
+  { name: "Clothing Store", id: "213124ea", link: "/shop" },
   { name: "About us", id: "313124ea", link: "/about" },
   { name: "Contact", id: "413124hg", link: "/contact" },
 ];
@@ -17,19 +17,19 @@ export const list = [
 export const navigation = [
   {
     id: "0",
-    title: "MMSTORE-25",
+    title: "MSTORE-25",
     url: "/",
     onlyMobile: false,
   },
   {
     id: "1",
-    title: "Design Shop",
+    title: "Clothing Store",
     url: "/shop",
     onlyMobile: false,
   },
   {
     id: "2",
-    title: "Design Store",
+    title: "Furniture Store",
     url: "/store",
     onlyMobile: false,
   },

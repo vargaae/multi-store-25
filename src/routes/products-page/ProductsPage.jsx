@@ -50,7 +50,7 @@ const Products = () => {
   const [selectedSubCats, setSelectedSubCats] = useState([]);
 
   const productsPage = true;
-  const headerTitle = catId < 8 ? "Design Store" : "Design Shop";
+  const headerTitle = catId < 8 ? "Furniture Store" : "Clothing Store";
   const headerLink = catId < 8 ? "/store" : "/shop";
   const productsPageLink = catId < 8 ? "/products/7" : "/products/10";
 

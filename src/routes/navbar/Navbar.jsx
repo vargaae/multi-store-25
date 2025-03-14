@@ -89,7 +89,6 @@ const Navbar = ({ navGradient }) => {
     >
       <div className="navbar-links flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <LogoContainer onClick={goHomeCloseCart} to="/">
-          <img src={logo} className="logo" alt="logo of Andras Varga" />
         </LogoContainer>
         <nav
           className={`${

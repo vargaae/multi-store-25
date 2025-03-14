@@ -14,40 +14,6 @@ export const NavigationContainer = styled.div`
   font-size: 1em;
 `;
 
-// Logo-float keyframes
-const float = keyframes`
-   0% {
-     transform: translateY(0);
-   }
-   50% {
-     transform: translateY(10px);
-   }
-   100% {
-     transform: translateY(0px);
-   }
-`;
-
-export const LogoContainer = styled(Link)`
-  width: 50px;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-
-  .logo {
-    height: 40%;
-    pointer-events: none;
-    /* animation: ${float} infinite 3s ease-in-out; */
-    @media (prefers-reduced-motion: no-preference) {
-      animation: ${float} infinite 3s ease-in-out;
-    }
-    @media screen and (min-width: 550px) {
-      height: 80%;
-    }
-  }
-  @media screen and (min-width: 550px) {
-    padding: 0.5rem 0.5rem 0.5rem 2rem;
-    width: 70px;
-  }
-`;
-
 export const NavLinksContainer = styled.div`
   height: 100%;
   width: 100%;

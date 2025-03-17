@@ -4,8 +4,8 @@ export const brands = [
   {
     _id: `Furniture Interior Design`,
     title: "Furniture",
-    linkUrl: "https://www.ikea.com/",
-    company: `IKEA`,
+    linkUrl: "https://www.amazon.com/",
+    company: `AMAZON`,
     imgUrl: images.amazon,
   },
   {
@@ -18,9 +18,9 @@ export const brands = [
   {
     _id: `Furnitures`,
     title: "Kitchen",
-    company: `IKEA`,
-    linkUrl: "https://www.ikea.com/",
-    imgUrl: images.bolt,
+    company: `BOLT`,
+    linkUrl: "https://www.bolt.com/",
+    imgUrl: images.bolt,  // TODO: change to another company
   },
   {
     _id: `Clothes`,
@@ -39,8 +39,8 @@ export const brands = [
   {
     _id: `08`,
     title: "Accesories",
-    linkUrl: "https://www.shopify.com/",
-    company: `New Balance`,
+    linkUrl: "https://www.skype.com/",
+    company: `Skype`, // TODO: change to another company
     imgUrl: images.skype,
   },
   {

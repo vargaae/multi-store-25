@@ -10,7 +10,7 @@ const demoImage =
 
 const Carousel = () => {
   const responsive = {
-    0: { items: 3 },
+    0: { items: 2 },
     512: { items: 4 },
     1024: { items: 5 },
     1200: { items: 6 },

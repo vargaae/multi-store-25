@@ -1,4 +1,4 @@
-import { styled, keyframes } from "styled-components";
+import { styled } from "styled-components";
 
 import { Link } from "react-router-dom";
 
@@ -19,8 +19,14 @@ export const LogoContainer = styled(Link)`
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 
   @media screen and (min-width: 550px) {
-    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    padding: 0.5rem 0rem 0.5rem 2rem;
     width: 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0.5rem 0rem 0.5rem 3rem;
+  }
+  @media screen and (min-width: 1600px) {
+    padding: 0.5rem 0rem 0.5rem 11dvw;
   }
 `;
 

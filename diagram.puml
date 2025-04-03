@@ -1,0 +1,66 @@
+@startuml
+class MultiStoreApp {
+    + STORE Microservice
+    + SHOP Microservice
+    + ReactApp with ReduxStateManagement
+}
+
+
+class AuthService {
+    + STORE Microservice
+    + SignInWithEmail()
+    + SignInWithGoogle()
+    + SignUp()
+}
+
+class CartService {
+    + AddToCart()
+    + RemoveFromCart()
+    + CalculateTotalPrice()
+}
+
+class CategoriesService {
+    + SHOP Microservice
+    + SetCategories()
+}
+
+ReactApp --> AuthService
+ReactApp --> CategoriesService
+ReactApp --> CartService
+ReactApp --> ReactAppRootReducer
+ReactApp --> ErrorHandling
+
+class ReactAppRootReducer {
+    + combineReducers()
+    + userReducer
+    + categoriesReducer
+    + cartReducer
+    + strApi.reducer
+}
+
+class StrApi {
+    STORE Microservice
+    + reducerPath
+    + reducer()
+}
+
+class UserReducer {
+    STORE Microservice
+    + processUserData()
+}
+
+class CategoriesReducer {
+    + SHOP Microservice
+    + processCategoryData()
+}
+
+class CartReducer {
+    + processCartData()
+}
+
+ReactAppRootReducer --> UserReducer
+ReactAppRootReducer --> CategoriesReducer
+ReactAppRootReducer --> CartReducer
+ReactAppRootReducer --> StrApi
+
+@enduml

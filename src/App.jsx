@@ -14,17 +14,10 @@ import { setCurrentUser } from "./store/user/user.reducer";
 
 import { Spinner } from "./components";
 
-import { Navbar } from "./routes";
+import { Navbar, Start, StartStore, Shop, ProductPage, ShopProductPage, ProductsPage } from "./routes";
 
-const Footer = lazy(() => import("./containers/footer/Footer"));
-const Start = lazy(() => import("./routes/start/Start"));
-const StartStore = lazy(() => import("./routes/start-store/StartStore"));
-const Shop = lazy(() => import("./routes/shop/Shop"));
-const ProductPage = lazy(() => import("./routes/product-page/ProductPage"));
-const ShopProductPage = lazy(() =>
-  import("./routes/product-page/ShopProductPage")
-);
-const ProductsPage = lazy(() => import("./routes/products-page/ProductsPage"));
+import { Footer } from "./containers";
+
 const Checkout = lazy(() => import("./routes/checkout/Checkout"));
 const Authentication = lazy(() =>
   import("./routes/authentication/Authentication")

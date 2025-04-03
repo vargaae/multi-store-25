@@ -16,18 +16,13 @@ export const CarouselContainer = styled.div`
 `;
 
 export const CarouselItem = styled(Link)`
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-  // text-transform: uppercase;
-  // color: white;
   margin: 0.7rem;
-  // padding-top: 1rem;
-  // padding-bottom: 1rem;
   background-color: rgb(255, 255, 255, 0.9);
-  // background-color: rgba(0, 0, 40, 0.6);
-  // background-color: rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   // BOX-SHADOW
   -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
@@ -36,5 +31,37 @@ export const CarouselItem = styled(Link)`
 
   img {
     border-radius: 5px;
+  }
+
+  $breakpoints: (
+    xs: 0px,
+    sm: 600px,
+    md: 810px,
+    lg: 1280px,
+    xl: 1920px,
+  );
+
+$breakpoint-keys: map.keys($breakpoints);
+
+$width: "min";
+
+@mixin responsive($size, $width) {
+  $query: map.get($breakpoints, $size);
+  @media (#{$width}-width: #{$query}) {
+    @content;
+  }
+}
+
+min-height: 50dvh;
+
+// MEDIA QUERIES
+@media (min-width: 768px) {
+  min-height: 50dvh;
+}
+@media (min-width: 1280px) {
+  min-height: 40dvh;
+}
+@include responsive(md, min) {
+  min-height: 600px;
   }
 `;

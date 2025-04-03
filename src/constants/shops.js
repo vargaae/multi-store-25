@@ -3,13 +3,13 @@ import { images } from "./";
 export const shops = [
   {
     title: "Clothes & Accesories",
-    description: `Clothes & Accesories for men and women`,
+    description: `For men and women`,
     company: `Farm Rio, New Balance, Adidas`,
     imgUrl: images.designshop,
     shopLink: "/shop",
   },
   {
-    title: "Clothes",
+    title: "Clothes Shop",
     description: `Clothes for men and women`,
     company: `Farm Rio, Adidas`,
     imgUrl: images.clothes,
@@ -17,7 +17,7 @@ export const shops = [
   },
   {
     title: "Accesories",
-    description: `Clothes Accesories More`,
+    description: `Accesories & More`,
     company: `Farm Rio, New Balance`,
     imgUrl: images.accessories,
     shopLink: "/products/9",
@@ -25,7 +25,7 @@ export const shops = [
   {
     title: "Storing Furniture",
     description: `Furniture Interior Design`,
-    company: `IKEA, JYSK`,
+    company: `IKEA, JYSK, Caressa`,
     imgUrl: images.furniture,
     shopLink: "/store",
   },
@@ -37,9 +37,9 @@ export const shops = [
     shopLink: "/store/products/1",
   },
   {
-    title: "Kitchen",
+    title: "Kitchen Furniture",
     description: `Kitchen Furnitures`,
-    company: `IKEA`,
+    company: `IKEA, Caressa`,
     imgUrl: images.kitchen,
     shopLink: "/store/products/2",
   },
@@ -60,7 +60,7 @@ export const shops = [
   {
     title: "Office Furniture",
     description: `Office Interior Design`,
-    company: `IKEA, JYSK`,
+    company: `IKEA, AnthroLiving, JYSK`,
     imgUrl: images.office,
     shopLink: "/store/products/6",
   },

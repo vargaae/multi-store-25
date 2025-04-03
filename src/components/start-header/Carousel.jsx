@@ -11,9 +11,9 @@ const demoImage =
 const Carousel = () => {
   const responsive = {
     0: { items: 2 },
-    512: { items: 4 },
-    1024: { items: 5 },
-    1200: { items: 6 },
+    512: { items: 3 },
+    1024: { items: 4 },
+    1200: { items: 5 },
   };
 
   const items = shops.map((shop) => {
@@ -30,19 +30,16 @@ const Carousel = () => {
           className="w-full"
         />
 
-        <div className="px-6 py-4">
+        <div className="px-3 py-2">
           <div className="font-bold text-xl mb-2">{shop?.title}</div>
           <p className="text-gray-700 text-base">{shop?.description}</p>
         </div>
-        <div className="px-6 pt-4 pb-2">
+        <div className="px-3 pt-3 pb-2">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             {shop?.company}
           </span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            sale
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            30%
+            sale 30%
           </span>
         </div>
       </CarouselItem>

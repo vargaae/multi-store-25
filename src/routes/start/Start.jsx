@@ -51,11 +51,10 @@ const Start = () => {
       <StartHeader />
       <BrandsContainer>
         {brands.map((brand) => (
-          <a href={brand.linkUrl} target="_blank">
+          <a href={brand.linkUrl} target="_blank" key={brand.id}>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5, type: "tween" }}
-              key={brand._id}
             >
               <img src={brand.imgUrl} alt={brand.title} />
             </motion.div>

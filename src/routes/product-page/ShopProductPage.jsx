@@ -29,6 +29,8 @@ const ShopProductPage = ({}) => {
   const headerTitle = "Clothing Store";
   const headerLink = "/shop";
 
+  const [isActive, setIsActive] = useState(false);
+
   const [selectedImg, setSelectedImg] = useState("img");
 
   const [singleProduct, setSingleProduct] = useState({});
@@ -46,6 +48,9 @@ const ShopProductPage = ({}) => {
 
   const dispatch = useDispatch();
 
+  const handleClickMoreLess = () => {
+    setIsActive((prev) => !prev);
+  };
   const addProductToCart = () =>
     dispatch(
       addItemToCart({
@@ -104,7 +109,16 @@ const ShopProductPage = ({}) => {
                   {singleProduct?.name}
                 </ProductPageTitle>
                 <span className="price">€{singleProduct?.price}</span>
-                <p>{singleProduct?.desc}</p>
+                <p href="#description">
+                  <span className={isActive ? "" : "desc"}>
+                    {singleProduct?.desc}
+                  </span>
+                  <em>
+                    <a href="#description" onClick={handleClickMoreLess}>
+                      {isActive ? "\n | Show Less" : "| Show More"} |
+                    </a>
+                  </em>
+                </p>
                 <ButtonComponent
                   onClick={addProductToCart}
                   buttonType={BUTTON_TYPE_CLASSES.productpage}
@@ -134,12 +148,7 @@ const ShopProductPage = ({}) => {
                   <span>
                     <strong>SPECIFICATIONS</strong>
                   </span>
-                  <span>
-                    PatternSolidFitSlim FitCollarNotched LapelBottom
-                    ClosureSlip-OnTypeBlazer and TrousersFabricCotton
-                    BlendOccasionFormalSleeve LengthLong SleevesFront
-                    StylingSingle-Breasted
-                  </span>
+                  <span>PatternSolidFitSlim FitCollarNotched</span>
 
                   <span>Product Type</span>
                   <span>

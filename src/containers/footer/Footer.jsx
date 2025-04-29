@@ -129,7 +129,7 @@ const Footer = () => {
       </LinksContainer>
 
       <CopyrightContainer>
-        <p>@2024 Andras Varga. All rights reserved.</p>
+        <p>@2025 Andras Varga. All rights reserved.</p>
       </CopyrightContainer>
     </FooterContainer>
   );

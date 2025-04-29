@@ -165,6 +165,12 @@ export const ProductContainer = styled.div`
         margin-top: 20px;
       }
     }
+    .desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
 
     .quantity {
       display: flex;
@@ -237,24 +243,34 @@ export const ProductContainer = styled.div`
     hr {
       // border: 1px solid rgb(238, 237, 237);
       border: 0 none rgb(238, 237, 237);
-      padding-bottom: 2em;
+      padding-bottom: 0.1em;
     }
   }
   @media screen and (min-width: 900px) {
     flex-direction: row;
   }
+  @media screen and (min-width: 1400px) {
+    hr {
+      padding-bottom: 0.2em;
+    }
+  }
 `;
 
 // YOU MAY ALSO LIKE
 export const FeaturedContainer = styled.div`
-  padding: calc(2vw + 1rem);
+  padding: 150px 90px;
 
+  @media (min-width: 1000px) and (max-width: 1199px) {
+    padding: 150px 250px;
+  }
   @media screen and (min-width: 1200px) {
-    /* padding: calc(4vw + 1rem) 200px; */
-    padding: calc(4vw + 1rem) 0;
+    padding: 150px 50px;
   }
   @media screen and (min-width: 1600px) {
-    padding: 150px 250px;
+    padding: 150px 150px;
+  }
+  @media screen and (min-width: 1800px) {
+    padding: 150px 200px;
   }
 `;
 export const FeaturedTitle = styled.h2`

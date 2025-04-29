@@ -30,14 +30,19 @@ const ProductPage = ({}) => {
   let { id } = useParams();
 
   const [count, setCount] = useState(0);
+  const [isActive, setIsActive] = useState(false);
 
+  
   const [selectedImg, setSelectedImg] = useState("img");
   // const [quantity, setQuantity] = useState(1);
   const productPage = true;
   const headerTitle = "Furniture Store";
   const headerLink = "/store";
-
+  
   const dispatch = useDispatch();
+  const handleClickMoreLess = () => {
+    setIsActive((prev) => !prev);
+  };
   const addProductToCart = () =>
     dispatch(
       addItemToCart({
@@ -159,10 +164,19 @@ const ProductPage = ({}) => {
                 <ProductPageTitle className="screenview">
                   {productDataById?.data?.attributes?.title}
                 </ProductPageTitle>
-                <span className="price">
+                <span id="description" className="price">
                   €{productDataById?.data?.attributes?.price}
                 </span>
-                <p>{productDataById?.data?.attributes?.desc}</p>
+                <p>
+                  <span className={isActive ? "" : "desc"}>
+                    {productDataById?.data?.attributes?.desc}
+                  </span>
+                  <em>
+                    <a href="#description" onClick={handleClickMoreLess}>
+                      {isActive ? "\n | Show Less" : "| Show More"} |
+                    </a>
+                  </em>
+                </p>
                 <ButtonComponent
                   onClick={addProductToCart}
                   buttonType={BUTTON_TYPE_CLASSES.productpage}
@@ -192,12 +206,7 @@ const ProductPage = ({}) => {
                   <span>
                     <strong>SPECIFICATIONS</strong>
                   </span>
-                  <span>
-                    PatternSolidFitSlim FitCollarNotched LapelBottom
-                    ClosureSlip-OnTypeBlazer and TrousersFabricCotton
-                    BlendOccasionFormalSleeve LengthLong SleevesFront
-                    StylingSingle-Breasted
-                  </span>
+                  <span>PatternSolidFitSlim FitCollarNotched</span>
 
                   <span>Product Type</span>
                   <span>
